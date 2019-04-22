@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <% require 'date' %>
+    <% date = Time.new() %>
+    <%  mess = date.strftime("The date is %A, %B %d, %Y") %>
+    <p><%=mess%></p>
+  </body>
+</html>
